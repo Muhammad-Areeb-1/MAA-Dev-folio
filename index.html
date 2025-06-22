@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAA - Dev-Folio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Muhammad Areeb"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Muhammad Areeb">Muhammad Areeb</h1>
+
+            <p class="title">Software Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:m.areebatif@gmail.com" class="contact-link"
+                  >m.areebatif@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+923164146623" class="contact-link"
+                  >+92 (316) 414-6623</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2003-04-3">April 3, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Rawalpindi, Punjab, Pakistan</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Software Engineering student at MCS, NUST, passionate about
+              AI, backend development, and Flutter. I enjoy transforming complex
+              ideas into purposeful, scalable solutions that are both
+              technically sound and thoughtfully designed.
+            </p>
+
+            <p>
+              Over the past year, I've been freelancing—delivering web and
+              mobile solutions tailored to real client needs. My expertise lies
+              in the MERN stack, along with working knowledge of Python (for
+              data science), Flutter, and Next.js. I focus on building systems
+              that solve real-world problems with clarity and precision—whether
+              it's crafting seamless APIs or contributing to feature-rich
+              applications. My goal is to create technology that not only
+              functions well but delivers real value through meaningful design
+              and functionality.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <!-- Data Science -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/data-analytics-icon.svg
+                "
+                    alt="data icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science</h4>
+
+                  <p class="service-item-text">
+                    Extracting insights and building predictive models using
+                    data analysis and machine learning.
+                  </p>
+                </div>
+              </li>
+
+              <!-- Web Development -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+
+                  <p class="service-item-text">
+                    Developing websites with modern technologies, ensuring
+                    performance, scalability, and user satisfaction.
+                  </p>
+                </div>
+              </li>
+
+              <!-- Cross-Platform Development -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/responsive-design-icon.svg"
+                    alt="responsivness icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Cross-Platform Development
+                  </h4>
+
+                  <p class="service-item-text">
+                    Creating high-quality, scalable applications for various
+                    platforms with exceptional performance.
+                  </p>
+                </div>
+              </li>
+
+              <!-- Network Security -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/shield.svg"
+                    alt="security icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Network Security</h4>
+
+                  <p class="service-item-text">
+                    Securing networks by identifying vulnerabilities and
+                    implementing robust defense mechanisms.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="tools">
+            <h3 class="h3 tools-title">Tools I'm Proficient In</h3>
+            <div class="tools-icons">
+              <ion-icon name="logo-html5" class="tool-icon"></ion-icon>
+              <ion-icon name="logo-css3" class="tool-icon"></ion-icon>
+              <ion-icon name="logo-javascript" class="tool-icon"></ion-icon>
+              <ion-icon name="logo-nodejs" class="tool-icon"></ion-icon>
+              <ion-icon name="logo-python" class="tool-icon"></ion-icon>
+            </div>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        </article>
+
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  National University of Sciences and Technology (MCS)
+                </h4>
+
+                <span>2022 — 2026</span>
+
+                <p class="timeline-text">
+                  Currently pursuing a Bachelor of Engineering in Software
+                  Engineering in Junior Year, holding a cumulative GPA of 3.38.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Government College of Science, Faisalabad
+                </h4>
+
+                <span>2019 — 2021</span>
+
+                <p class="timeline-text">
+                  Completed my intermediate education with distinction, securing
+                  an exceptional score of 96% in F.Sc. (Pre-Engineering).
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  City High School, Faisalabad
+                </h4>
+
+                <span>2017 — 2019</span>
+
+                <p class="timeline-text">
+                  Demonstrated academic excellence during matriculation by
+                  attaining a remarkable 90% aggregate score.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Freelancer</h4>
+
+                <span>2024 — Present</span>
+
+                <p class="timeline-text">
+                  Engaged in freelance projects, building and delivering
+                  complete solutions, from database and API development to
+                  responsive admin dashboards and user-facing
+                  interfaces, tailored to real client needs.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend Development</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MERN Stack</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Science</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Flutter</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">AI/ML</h5>
+                  <data value="65">65%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+
+            </ul>
+          </section>
+
+        </article>
+
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Apps</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Android Apps</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Data Science</button>
+              </li> -->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-select-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                
+                <li class="select-item">
+                  <button data-select-item>Web Apps</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Android Apps</button>
+                </li>
+                
+                <li class="select-item">
+                  <button data-select-item>Data Science</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web apps"
+              >
+                <a href="https://github.com/Muhammad-Areeb-1/Multi-Tenant-Law-Portal">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/home.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Multi-Tenant Law Portal</h3>
+
+                  <p class="project-category">Web Apps</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="android apps"
+              >
+                <a href="https://github.com/Muhammad-Areeb-1/chibi-coin">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/chibi.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Chibi-Coin</h3>
+
+                  <p class="project-category">Android Apps</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web apps"
+              >
+                <a href="https://github.com/Muhammad-Areeb-1/NUST-E-bill-system">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/ebill.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">NUST E-Bill System</h3>
+
+                  <p class="project-category">Web Apps</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web apps"
+              >
+                <figure class="project-img" id="event-confidential-trigger" style="cursor:pointer;">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="./assets/images/event.png"
+                    alt="fundo"
+                    loading="lazy"
+                    style="filter: grayscale(90%);"
+                  />
+                </figure>
+                <h3 class="project-title">Event Management System</h3>
+                <p class="project-category">Web Apps</p>
+
+                <!-- Confidential Modal -->
+                
+              </li>
+
+              
+            </ul>
+          </section>
+        </article>
+
+        <!-- Confidential Modal (move outside .project-list for global overlay) -->
+        <div class="modal-container" id="confidential-modal" style="display:none;">
+          <div class="overlay" id="confidential-overlay"></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" id="confidential-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-content">
+              <h4 class="h3 modal-title">Confidential Project</h4>
+              <div>
+                <p>This project is confidential and cannot be publicly displayed.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106389.97557771104!2d73.01814784999999!3d33.5615146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df948974419acb%3A0x984357e1632d30f!2sRawalpindi!5e0!3m2!1sen!2s!4v1750598156558!5m2!1sen!2s"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:m.areebatif@gmail.com" method="post" enctype="text/plain" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
