@@ -12,6 +12,7 @@ A modern, responsive static portfolio website to showcase your personal projects
 ## Getting Started
 
 ### Preview
+You can visit the site at `https://maa-dev-folio.vercel.app` OR
 Open `index.html` in your web browser to view the site locally.
 
 ### Folder Structure
@@ -20,9 +21,3 @@ Open `index.html` in your web browser to view the site locally.
 - `assets/js/script.js` – JavaScript for interactivity
 - `assets/images/` – Images and icons
 - `website-demo-image/` – Demo screenshots
-
-## License
-This project is licensed under the terms of the LICENSE file included in this repository.
-
----
-Feel free to use and modify this template for your own portfolio!
